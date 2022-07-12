@@ -12,5 +12,8 @@ public class Exam0426 {
     
     // 값의 유효 여부에 상관없이 메모리 크기가 큰 변수의 값을 작은 크기에 변수에 저장할 수 없다.
     //f = d; // 문법 오류!
+
+    f = d;
+    System.out.println(f);
   }
 }

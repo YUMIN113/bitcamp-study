@@ -45,7 +45,7 @@ public class Exam0400 {
 //   - float  : 4byte 메모리 (유효자릿수 7자리)
 //   - double : 8byte 메모리 (유효자릿수 15자리)
 // - 문자
-//   - char   : 2byte 메모리 (0 ~ 65535). UCS-2 코드 값 저장.
+//   - char   : 2byte 메모리 (0 ~ 65535). UCS-2 코드 값 저장. Font를 통해 문자로 출력.(유민)
 // - 논리값
 //   - boolean : JVM에서 4 바이트 int 메모리를 사용한다.
 //               배열일 경우 1 바이트 byte 메모리를 사용한다.
