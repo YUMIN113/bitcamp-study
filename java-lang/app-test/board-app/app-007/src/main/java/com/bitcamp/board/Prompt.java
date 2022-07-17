@@ -4,18 +4,20 @@
 package com.bitcamp.board;
 
 public class Prompt {
-
+  
   static java.util.Scanner keyboardInput = new java.util.Scanner(System.in);
 
   static int inputInt() {
-    String str = keyboardInput.nextLine(); // 창에 숫자 입력하고 엔터치면 nextInt가 menuNo에 숫자만 보냄. 엔터 값은 여전히 남아있는 상태
-    return Integer.parseInt(str); 
-  }  
+    String str = keyboardInput.nextLine();
+    return Integer.parseInt(str); //"123" ==> 123, "5" ==> 5, "ok" ==> 실행 오류!
+  }
+
   static int inputInt(String title) {
     System.out.print(title);
-    String str = keyboardInput.nextLine(); // 창에 숫자 입력하고 엔터치면 nextInt가 menuNo에 숫자만 보냄. 엔터 값은 여전히 남아있는 상태
+    String str = keyboardInput.nextLine();
     return Integer.parseInt(str); 
-  }  
+  }
+
   static String inputString() {
     return keyboardInput.nextLine();
   }
@@ -23,11 +25,9 @@ public class Prompt {
   static String inputString(String title) {
     System.out.print(title);
     return keyboardInput.nextLine();
-  }  
+  }
+
   static void close() {
     keyboardInput.close();
   }
-}  
-
-
-
+}
