@@ -2,7 +2,7 @@ package com.eomcs.oop.ex02;
 
 // # 사용자 정의 데이터 타입 + 클래스 메서드
 //
-public class Exam0120 {
+public class Exam0120x {
 
   static class Score {
     String name;

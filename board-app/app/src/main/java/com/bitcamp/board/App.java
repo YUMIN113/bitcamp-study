@@ -11,7 +11,7 @@ public class App {
     welcom(); 
     loop: while (true) {
       displayMenu();
-      int menuNo = Prompt.inputInt("메뉴를 선택하세요[1..3](0: 종료) ");
+      int menuNo = Prompt.inputInt("메뉴를 선택하세요[1..5](0: 종료) ");
       displayLine();
 
       //방법2
